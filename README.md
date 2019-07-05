@@ -296,6 +296,6 @@ Accessing component data and user input has been discussed up to this point toge
 ```
 If only the course name is required then it is unnecessary to use the `import_adaptCourse` directive because a `courseName` property is available to templating.
 
-Today's date is provided to templating it and can be accessed via the (top level) property `dateFormatted`. The date format can be configured in the global Capture configuration. See also https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleString for more information.
+Today's date is provided to templating and can be accessed via the (top level) property `dateFormatted`. The date format can be configured in the global Capture configuration. See also https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleString for more information.
 
 Capture exposes various pieces of personal information via the properties `name`, `firstname`, `lastname`, and `id`. A formatted version of the `name` property is available via the `nameFormatted` property. This can be configured in the global Capture configuration.
