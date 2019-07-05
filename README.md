@@ -288,7 +288,7 @@ Continuing the example of rewriting without use of the helper could yield:
 ```
 ### Additional data
 
-Accessing component data and user input has been discussed up to this point together with the global Capture configuration. The Adapt `course` and and `config` objects can be accessed with the following directives:
+Accessing component data and user input has been discussed up to this point together with the global Capture configuration. The Adapt `course` and `config` objects can be accessed with the following directives:
 ```handlebars
 {{import_adaptCourse}}
 
